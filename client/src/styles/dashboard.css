@@ -1,0 +1,45 @@
+/* Dashboard Custom Styles */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0f172a;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e293b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #06b6d4;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0891b2;
+}
+
+.card-hover {
+  transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+}
+
+.page-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+.section-title {
+  font-size: 22px;
+  color: #06b6d4;
+  margin-bottom: 15px;
+}
